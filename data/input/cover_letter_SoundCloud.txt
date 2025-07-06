@@ -1,0 +1,35 @@
+Dear Hiring Team,
+I am writing to express my interest in the Machine Learning Engineer position, with a focus on Recommender Systems (RS) at SoundCloud.
+To describe myself shortly, I am an applied mathematician with 8 years of experience from academia,
+ transitioning to Machine Learning roles such as yours. 
+ To ease things, I have completed the Applied Data Science Program last year at MIT, where I learned a number of modern tools (there was specific lecture on RS, in which we explored Python's Surprise library.
+ While I thrived in academia (Believe it or not, but I was offered a tenure-track professor position (Probability theory) in Lisbon, which I declined),
+ I am looking for a challenge that will allow me to apply my knowledge and skills to real-world problems. 
+ If you wonder why I particularly want to join your team, here are some reasons why:
+
+ - If you have a look at my google scholar publications list,
+ you will see that I possess a hybrid background: while I published most of my papers to Probability Theory journals,
+ I have also studied and published in control theory (Stochastic or PDE) and Numerics. 
+ Similarly, Recommendation systems involve several domains of mathematics (rather than just one) and those intersect quite well with the 3 above-mentioned fields.
+
+- I have a strong interest in Machine Learning (especially RS, but also Deep learning and NLP).
+This is definitely an area that I have been working on for the past 3-4 years, first as a tool for testing mathematical models in neuroscience (with Pytorch),
+second as a hobby, and finally as a core skill that would allow me to open to industry perspectives.
+I feel that ML is an area where I can both apply my rigor (I gained it through regular publications in peer-reviewed mathematical journals) and my creativity.
+
+- I am particularly interesed in the challenge of improving the existing code for Recommender Systems,
+  for instance by optimizing and rewriting existing algorithms to work natively in low-level languages like C++ or Rust, both of which I have recently studied (if you need reassurance, I am confident that these skill are transferable to Java).
+Note that my (Python) MIT capstone project focused on creating a content-based and collaborative filtering 
+ recommender system on Amazon/Spotify datasets, as can be seen on my corresponding GitHub repository.
+ 
+
+Furthermore, during my free time, I have taken the initiative -- through continuous learning platforms like Coursera -- to learn how to code a Language Model (LLM) application
+ using Langchain, and even learned how to deploy it with AWS.
+This exercise (along with a few other ones) has provided me with a background for recent LLM technologies. This also gave me fresh ideas for my future projects, notably on RS, and I am willing to bring these to SoundCloud.
+
+Lastly, I hope that this letter (as well as the attached cv) overall illustrate my adaptability, a trait that will be essential to integrate more efficiently to your team.
+Together with my problem-solving skills, this could only make me better at contributing to SoundCloud's mission.
+
+Thank you for considering my application. I look forward to the opportunity to discuss my qualifications further.
+
+Sincerely, Antoine Hocquet

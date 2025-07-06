@@ -1,0 +1,37 @@
+# virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# pytest cache
+.pytest_cache/
+
+
+# Everything related to notebooks
+.ipynb_checkpoints/
+*.ipynb
+.jupyter/
+notebooks/
+
+# 2 specific data files: bible_catholic_public.txt, proust_full.txt
+bible_catholic_public.txt
+proust_full.txt
+
+# specific input
+cover_letter_Soundcloud.txt
+
+# output
+reformulated.txt
+
+# embeddings folder
+embeddings/
+
+# API keys
+.env
+
+# init_scaffold.sh
+init_scaffold.sh
