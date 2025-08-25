@@ -25,7 +25,7 @@ def save_output(sentences, path):
 def main(args):
     print("🔹 Loading and chunking reference text...")
     reference_text = read_text_file(args.reference)
-    chunker = SentenceChunker()
+    chunker = SentenceChunker(method=args.chunking, window_size=args.window_size)
     reference_chunks = chunker.chunk(reference_text)
 
     print(f"✅ Reference chunks: {len(reference_chunks)}")
@@ -38,6 +38,7 @@ def main(args):
     retriever = Retriever(dim)
     retriever.add(reference_embeddings, reference_chunks)
 
+    # apply the same chunker to input text
     print("🔹 Chunking input text...")
     input_text = read_text_file(args.input)
     input_chunks = chunker.chunk(input_text)
@@ -70,6 +71,8 @@ if __name__ == "__main__":
     parser.add_argument("--output", type=str, help="Path to save reformulated text")
     parser.add_argument("--top_k", type=int, default=3, help="Number of top chunks to retrieve")
     parser.add_argument("--raw", action="store_true", help="Use raw mode (no API calls, just return first retrieved chunk)")
-
+    parser.add_argument("--chunking", type=str, default="sentence", choices=["sentence", "sliding"], help="Chunking strategy for input")
+    parser.add_argument("--window_size", type=int, default=20, help="Window size for sliding chunking")
+    
     args = parser.parse_args()
     main(args)
